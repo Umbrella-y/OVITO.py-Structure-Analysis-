@@ -99,7 +99,7 @@ def calculate_strain(filepath,outpath,i):#函数名字并不重要
     return Out_put_data
 ## 现在需要依次读取每个文件夹中的文件，进行计算后输出到一个csv文件中，进行数据处理，不同温度节点下的数据    
 ## 以下与各自的文件结构有关，不做注释。
-path = r'/Volumes/新加卷/王子琦-小论文/2023-12-30-烧结过程数据下载/data/'
+path = r'/Volumes/xxxxxxxxxx/data/'
 os.chdir(path)
 folders = os.listdir(path)
 result_lie = pd.DataFrame()
